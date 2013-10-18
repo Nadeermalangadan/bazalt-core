@@ -11,9 +11,9 @@
     ],
     "autoload": {
         "psr-0": {
-            "Bazalt\\Core": "src"
+            "Bazalt\\Config": "src"
         },
-        "files": ["src/Bazalt/Core/bootstrap.php"]
+        "files": ["src/Bazalt/bootstrap.php"]
     },
     "require": {
         "analog/analog": "dev-master",
