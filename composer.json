@@ -1,0 +1,26 @@
+{
+    "name": "bazalt/core",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Vitalii Savchuk",
+            "email": "esvit666@gmail.com",
+            "homepage": "http://equalteam.net/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Bazalt\\Core": "src"
+        },
+        "files": ["src/Bazalt/Core/bootstrap.php"]
+    },
+    "require": {
+        "analog/analog": "dev-master",
+        "filp/whoops": "1.0.7",
+        "pimple/pimple": "*"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master"
+    }
+}
