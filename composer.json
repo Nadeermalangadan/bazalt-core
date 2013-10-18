@@ -16,8 +16,6 @@
         "files": ["src/Bazalt/bootstrap.php"]
     },
     "require": {
-        "analog/analog": "dev-master",
-        "filp/whoops": "1.0.7",
         "pimple/pimple": "*"
     },
     "require-dev": {
