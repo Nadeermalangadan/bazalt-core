@@ -2,7 +2,7 @@
 
 namespace Bazalt;
 
-class Config extends \Pimple
+class Config extends \Pimple\Container
 {
     protected static $container = null;
 
